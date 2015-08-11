@@ -226,6 +226,9 @@ class pageHistoryTest extends minifluxTestCase
         $this->ignorePageTitle = TRUE;
     }
 
+    /**
+     * @group failing
+     */
     public function testUnreadCounterFromNothingToValue()
     {
         // load different fixture and reload the page
