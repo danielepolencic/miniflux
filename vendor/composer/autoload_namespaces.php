@@ -6,7 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'phpDocumentor' => array($vendorDir . '/phpdocumentor/reflection-docblock/src'),
     'SimpleValidator' => array($vendorDir . '/fguillot/simple-validator/src'),
+    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
     'PicoFeed' => array($vendorDir . '/fguillot/picofeed/lib'),
     'PicoFarad' => array($vendorDir . '/fguillot/picofarad/lib'),
     'PicoDb' => array($vendorDir . '/fguillot/picodb/lib'),

@@ -9,6 +9,11 @@
         "fguillot/picofeed": "v0.1.7",
         "fguillot/picofarad": "dev-master"
     },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.3",
+        "phpunit/phpunit-selenium": "1.4.2",
+        "phpunit/dbunit": "1.4.1"
+    },
     "autoload": {
         "files": [
             "lib/helpers.php",
